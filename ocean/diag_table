@@ -55,7 +55,7 @@ ACCESS-OM2-01
 
 # Temperature-binned volume transports
 "ocean_model","ty_trans_nrho","ty_trans_nrho", "ocean_wmass","all",.true.,"none",1
-#"ocean_model","ty_trans_nrho_submeso","ty_trans_nrho_submeso", "ocean_wmass","all",.true.,"none",1
+"ocean_model","ty_trans_nrho_submeso","ty_trans_nrho_submeso", "ocean_wmass","all",.true.,"none",1
 #"ocean_model","tx_trans_nrho","tx_trans_nrho", "ocean_wmass","all",.true.,"none",1
 #"ocean_model","tx_trans_nrho_submeso","tx_trans_nrho_submeso", "ocean_wmass","all",.true.,"none",1
 
@@ -71,17 +71,17 @@ ACCESS-OM2-01
 #"ocean_model","total_volume_seawater","total_volume_seawater" , "ocean_snap","all",.false.,"none",2
 
 # Temperature-binned heat budget diagnostics
-#"ocean_model","temp_vdiffuse_diff_cbt_on_nrho","temp_vdiffuse_diff_cbt_on_nrho", "ocean_wmass","all",.true.,"none",1
-#"ocean_model","temp_nonlocal_KPP_on_nrho","temp_nonlocal_KPP_on_nrho", "ocean_wmass","all",.true.,"none",1
-#"ocean_model","temp_vdiffuse_sbc_on_nrho","temp_vdiffuse_sbc_on_nrho","ocean_wmass","all",.true.,"none",1
-#"ocean_model","sfc_hflux_pme_on_nrho","sfc_hflux_pme_on_nrho","ocean_wmass","all",.true.,"none",1
-#"ocean_model","frazil_on_nrho","frazil_on_nrho","ocean_wmass","all",.true.,"none",1
-#"ocean_model","temp_eta_smooth_on_nrho","temp_eta_smooth_on_nrho","ocean_wmass","all",.true.,"none",1
-#"ocean_model","sw_heat_on_nrho","sw_heat_on_nrho", "ocean_wmass","all",.true.,"none",1
-#"ocean_model","temp_rivermix_on_nrho","temp_rivermix_on_nrho","ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_vdiffuse_diff_cbt_on_nrho","temp_vdiffuse_diff_cbt_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_nonlocal_KPP_on_nrho","temp_nonlocal_KPP_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_vdiffuse_sbc_on_nrho","temp_vdiffuse_sbc_on_nrho","ocean_wmass","all",.true.,"none",1
+"ocean_model","sfc_hflux_pme_on_nrho","sfc_hflux_pme_on_nrho","ocean_wmass","all",.true.,"none",1
+"ocean_model","frazil_on_nrho","frazil_on_nrho","ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_eta_smooth_on_nrho","temp_eta_smooth_on_nrho","ocean_wmass","all",.true.,"none",1
+"ocean_model","sw_heat_on_nrho","sw_heat_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_rivermix_on_nrho","temp_rivermix_on_nrho","ocean_wmass","all",.true.,"none",1
 
 # # To close volume budget, also need P-E+R T-binned:
-#"ocean_model","mass_pmepr_on_nrho","mass_pmepr_on_nrho","ocean_wmass","all",.true.,"none",1
+"ocean_model","mass_pmepr_on_nrho","mass_pmepr_on_nrho","ocean_wmass","all",.true.,"none",1
 
 # # # Eulerian heat budget diagnostics (for check)
 "ocean_model","temp_submeso","temp_submeso"                 ,"ocean_heat","all",.true.,"none",1
