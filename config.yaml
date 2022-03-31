@@ -1,7 +1,7 @@
 # PBS configuration
 # If submitting to a different project to your default uncomment line below 
 # and change project code as appropriate
-project: v45 
+project: e14 
 queue: normal
 walltime: 3:30:00
 jobname: 01deg_jra55_ryf
