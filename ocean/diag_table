@@ -53,6 +53,9 @@ ACCESS-OM2-01
 "ocean_model","ty_trans_rho","ty_trans_rho","ocean_month","all",.true.,"none",2
 #"ocean_model","ty_trans_nrho_submeso","ty_trans_nrho_submeso","ocean_month","all",.true.,"none",2
 
+# daily temperature
+"ocean_model","temp","temp",            "ocean_daily","all",.true.,"none",1
+
 # Temperature-binned volume transports
 "ocean_model","ty_trans_nrho","ty_trans_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","ty_trans_nrho_submeso","ty_trans_nrho_submeso", "ocean_wmass","all",.true.,"none",1
